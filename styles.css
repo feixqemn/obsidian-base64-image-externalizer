@@ -1,0 +1,38 @@
+.base64-image-externalizer-setting-note {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.base64-image-externalizer-copy-button {
+  position: fixed;
+  z-index: var(--layer-popover);
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  color: var(--text-normal);
+  background: var(--background-primary);
+  box-shadow: var(--shadow-s);
+  cursor: pointer;
+  opacity: 0.9;
+  --icon-size: 18px;
+  --icon-stroke: 2px;
+}
+
+.base64-image-externalizer-copy-button:hover {
+  opacity: 1;
+  background: var(--background-modifier-hover);
+}
+
+.base64-image-externalizer-copy-button svg,
+.base64-image-externalizer-copy-button .svg-icon {
+  width: 18px !important;
+  height: 18px !important;
+  min-width: 18px;
+  min-height: 18px;
+  stroke-width: 2px;
+}
